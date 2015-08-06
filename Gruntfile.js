@@ -39,7 +39,7 @@ module.exports = function(grunt) {
                 files: [
                     './app/images/*.{png,jpg,jpeg}',
                     './app/scripts/**/*.js',
-                    './app/sass/**/*.scss',
+                    './app/sass/**/*.sass',
                     './app/pages/**/*.html',
                     './app/templates/**/*.html',
                     'Gruntfile.js'
