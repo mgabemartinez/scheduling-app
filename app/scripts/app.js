@@ -19,93 +19,153 @@ angular.module('scheduleApp', ['firebase'])
   var daysRef = ref.child('days');
 
     daysRef.set({
-      monday: {
+      '1': {
         name: 'Monday',
         slots: {
-          900: {
+          '0900': {
             time: '9:00am',
             booked: false
           },
-          0110: {
+          '1100': {
             time: '11:00am',
             booked: false
           },
-          100: {
+          '1300': {
             time: '1:00pm',
             booked: false
           },
-          300: {
+          '1500': {
             time: '3:00pm',
             booked: false
           },
-          500: {
+          '1700': {
             time: '5:00pm',
             booked: false
           },
-          700: {
+          '1900': {
             time: '7:00pm',
             booked: false
           }
         }
       },
-      tuesday: {
+       '2': {
         name: 'Tuesday',
         slots: {
-          900: {
+          '0900': {
             time: '9:00am',
             booked: false
           },
-          0110: {
+          '1100': {
             time: '11:00am',
             booked: false
           },
-          100: {
+          '1300': {
             time: '1:00pm',
             booked: false
           },
-          300: {
+          '1500': {
             time: '3:00pm',
             booked: false
           },
-          500: {
+          '1700': {
             time: '5:00pm',
             booked: false
           },
-          700: {
+          '1900': {
             time: '7:00pm',
             booked: false
           }
         }
       },
-      wednesday: {
+       '3': {
         name: 'Wednesday',
         slots: {
-          900: {
+          '0900': {
             time: '9:00am',
             booked: false
           },
-          0110: {
+          '1100': {
             time: '11:00am',
             booked: false
           },
-          100: {
+          '1300': {
             time: '1:00pm',
             booked: false
           },
-          300: {
+          '1500': {
             time: '3:00pm',
             booked: false
           },
-          500: {
+          '1700': {
             time: '5:00pm',
             booked: false
           },
-          700: {
+          '1900': {
             time: '7:00pm',
             booked: false
           }
         }
       },
+       '4': {
+        name: 'Thursday',
+        slots: {
+          '0900': {
+            time: '9:00am',
+            booked: false
+          },
+          '1100': {
+            time: '11:00am',
+            booked: false
+          },
+          '1300': {
+            time: '1:00pm',
+            booked: false
+          },
+          '1500': {
+            time: '3:00pm',
+            booked: false
+          },
+          '1700': {
+            time: '5:00pm',
+            booked: false
+          },
+          '1900': {
+            time: '7:00pm',
+            booked: false
+          }
+        }
+      },
+       '5': {
+        name: 'Friday',
+        slots: {
+          '0900': {
+            time: '9:00am',
+            booked: false
+          },
+          '1100': {
+            time: '11:00am',
+            booked: false
+          },
+          '1300': {
+            time: '1:00pm',
+            booked: false
+          },
+          '1500': {
+            time: '3:00pm',
+            booked: false
+          },
+          '1700': {
+            time: '5:00pm',
+            booked: false
+          },
+          '1900': {
+            time: '7:00pm',
+            booked: false
+          }
+        }
+      }
+
+   
 
     });
 

@@ -1,15 +1,13 @@
 @import variables
 
 body 
-  height: 100vh
+  height: 1000px
   font-family: 'Helvetica Neue', sans-serif
   font-weight: bold
   background-color: #EDEDED
   display: flex
   flex-direction: column
   align-items: center
-
-
 
 h1
   font-family: 'Josefin Sans', sans-serif 
@@ -30,6 +28,28 @@ h2
   padding: 18px
   color: $charcoal
 
+p
+  font-family: 'Josefin Sans', sans-serif
+  font-weight: 700
+  font-size: 1.2em
+  color: $charcoal
+
+a
+  color: #6AB074 
+
+  &:hover
+    text-decoration: none
+    color: #579160
+
+  &:visited
+    text-decoration: none
+
+
+  &:active
+    text-decoration: none
+
+  &:link 
+    text-decoration: none
 
 .container
   h1
@@ -39,14 +59,25 @@ h2
     flex-direction: column
     align-items: center
 
+
+.button-home
+  width: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+
 .main-nav
   top: 0
   background-color: $charcoal
   width: 100%
-  height: 100px
+  height: 120px
   margin: 0
   padding: 30px
   border: none
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
 
   a 
     text-decoration: none
@@ -58,9 +89,79 @@ h2
     border-radius: 2px
     color: #63D0E6
 
+.super
+  text-decoration: none
+  font-family: 'Josefin Sans', sans-serif 
+  font-weight: 700
+  font-size: 5em
+  letter-spacing: -2px
+  padding: 0
+  margin: 0
+  border-radius: 2px
+  color: #6AB074 
 
+.schedule
+  display: inline-block
+  text-decoration: none
+  font-family: 'Josefin Sans', sans-serif 
+  font-weight: 700
+  font-size: 5em
+  letter-spacing: -2px
+  margin: 0
+  padding: 0
+  border-radius: 2px
+  color: #f2dede 
+
+
+.button-large
+  text-decoration: none
+  width: 200px
+  height: 75px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  color: $charcoal
+  background-color: transparent 
+  font-family: 'Josefin Sans', sans-serif
+  font-weight: 400
+  font-size: 1.5em
+  letter-spacing: 2px
+  border: 3px solid $charcoal
+  margin-bottom: 40px
+
+  &:hover
+    text-decoration: none
+    color: white
+    background-color: $charcoal 
+
+  &:visited
+    text-decoration: none
+    color: #6AB074 
+
+  &:active
+    text-decoration: none
+
+
+  &:link 
+    text-decoration: none
+    color: $charcoal
+
+
+.description
+  text-align: center
+
+
+.row
+  margin-bottom: 40px
+
+.times
+  display: flex
+  justify-content: center
+  align-items: center
 /* checkbox - each time slot */
-.time-slot                 
+.time-slot     
+
 
 /* hide the checkbox itself - the label will be styled */
 .time-slot input      
@@ -89,4 +190,18 @@ h2
   background:#6AB074 
   animation:flashAvailable 0.5s ease 
 
+.footer
+  position: absolute
+  background-color: $charcoal
+  width: 100%
+  height: 120px
+  margin: 0 auto
+  padding: 0
+  border: none
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
 
+  p 
+    color: white

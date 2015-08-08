@@ -40,8 +40,8 @@
 
 <!-- Nav Bar -->
   <nav class='main-nav'>
-    <ul class="nav navbar-nav navbar-left">
-      <li class='logo'><a class='home'>SuperSchedule</a></li>
+    <ul class="nav navbar-nav">
+      <li class='logo'><h1 class='super'>SuperScheduler</h1></li>
     </ul>
   </nav>
 
@@ -55,9 +55,12 @@
   </div>
 
   <!-- Use ng-repeat to get the other days and times -->
+  <div class="description">
+    <P> A real-time schedule app, built using <a href='https://angularjs.org/'>AngularJS</a> & <a href='https://www.firebase.com/'>Firebase</a>.  Open in 2 different browsers to experience the magic.</p>
+  </div>
   <div class="row times">
     
-    <div class="col-xs-4 text-center" ng-repeat="day in days">
+    <div class="col-xs-2 text-center" ng-repeat="day in days">
               
       <h2>{{ day.name }}</h2>
       
@@ -75,12 +78,19 @@
       
   </div>
 
-  <p class="text-center">    
-    <a href="#" class="btn btn-primary" ng-click="reset()">Reset</a>
-  </p>
+  <div class='button-home'>
+    
+      <a href="#" class="button-large" ng-click="reset()">RESET</a>
+    </br>
+    <br>
+  </div>
 
-</div>  
+
+ </div>  
 </body>
+<footer class='footer'>
+      <p class='description'>Adapted from a tutorial on <a href='https://scotch.io/'>Scotch.io</a>.</p>
+  </footer>
 </html>
 
 
