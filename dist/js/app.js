@@ -48,7 +48,7 @@ angular.module('scheduleApp', ['firebase'])
           }
         }
       },
-       '2': {
+      '2': {
         name: 'Tuesday',
         slots: {
           '0900': {
